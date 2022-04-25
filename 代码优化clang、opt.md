@@ -24,10 +24,8 @@ clang -S -mllvm --x86-asm-syntax=intel test.cpp
 参考链接:优化选项<https://gcc.gnu.org/onlinedocs/gcc-6.3.0/gcc/Optimize-Options.html>
 Clang/LLVM 有一个开关，用于描述在编译运行期间使用了哪些优化。Opt.txt 包含在多次传递中尝试的所有优化的详细信息。
 ![1650287304525.png](./img/1650287304525.png)
-![20220425162205](https://github.com/Baihaibo09/image/blob/main/20220425162205.png)
-![2copy.png](https://github.com/Baihaibo09/image/blob/main/20220425162309.png)
-![new](https://github.com/Baihaibo09/image/blob/main/20220425162951.png)
-![1.png](https://github.com/Baihaibo09/image/blob/main/1650287304525.png)
+![20220425163300](https://github.com/Baihaibo09/image/blob/main/20220425163300.png)
+
 ```
 clang -O3 -foptimization-record-file=Opt.txt test.cpp
 ```
